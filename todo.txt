@@ -1,0 +1,12 @@
+[(4, '02/25/2023', 'Linear Algebra', 'Easy', 'Weak', 1, 'Note and pen', 'LA', 123, 'LA')]
+
+
+
+LINEAR ALGEBRA
+
+SUB-TOPICS
+0. Matrix
+
+VOCABULARIES
+
+EXTERNAL RESOURCES

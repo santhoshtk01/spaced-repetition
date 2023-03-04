@@ -1,6 +1,8 @@
 import mysql.connector
 
+
 cursor = None
+
 configuration = {
     'user': 'root',
     'password': 'Mysql0011@',
@@ -8,6 +10,8 @@ configuration = {
     'database': 're_iterator'
 }
 
+
+# Make a new connection with the above configuration.
 try:
     connection = mysql.connector.connect(**configuration)
     print("Connection successful.")
@@ -18,6 +22,7 @@ else:
 
 
 def commit():
+    """To make commit to the database to make the changes permanently."""
     connection.commit()
     connection.close()
     print('Connection closed successfully.')
